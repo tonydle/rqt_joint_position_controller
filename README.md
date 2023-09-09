@@ -1,0 +1,2 @@
+# rqt_joint_position_controller
+A modification of the original rqt_joint_trajectory_controller, designed for interaction with JointPositionController and JointGroupPositionController.
