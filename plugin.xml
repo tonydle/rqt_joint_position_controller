@@ -1,0 +1,21 @@
+<library path="src">
+  <class name="JointPositionController"
+         type="rqt_joint_position_controller.joint_position_controller.JointPositionController"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Graphical frontend for interacting with JointPositionController or JointGroupPositionController instances.
+    </description>
+    <qtgui>
+      <group>
+        <label>Robot Tools</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to robot tools.</statustip>
+      </group>
+      <label>Joint position controller</label>
+      <icon>resource/scope.png</icon>
+      <statustip>
+        Monitor and send commands to running JointPositionController or JointGroupPositionController instances.
+      </statustip>
+    </qtgui>
+  </class>
+</library>
